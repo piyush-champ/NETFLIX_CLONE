@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Netflix.clone</title>
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <span><a href="https://www.netflix.com/in/"><img width="53px" src="logo.jpeg" alt="netflix"></a></span>
+            <div>
+                <button class="nav-ph">
+                    <i class="fa-solid fa-language"></i>
+                    English
+                </button>
+                <a href="https://www.netflix.com/in/login?serverState=%7B%22realm%22%3A%22growth%22%2C%22name%22%3A%22LOGIN%22%2C%22clcsSessionId%22%3A%22dd506903-5e5e-412a-bae9-1b1e0a5a9303%22%2C%22sessionContext%22%3A%7B%22session-breadcrumbs%22%3A%7B%22funnel_name%22%3A%22loginWeb%22%7D%7D%7D" target="_blank"><button class="red-btn1">Sign In</button></a>
+            </div>
+        </nav>
+        <div class="box"></div>
+        <div class="hero">
+            <span class="first-sec">Unlimited movies, TV <br>shows and more</span>
+            <span>Starts at ₹149. Cancel at any time.</span>
+            <span>Ready to watch? Enter your email to create or restart your membership.</span>
+
+            <div class="email-sec">
+                <input class="main-ph" input="text" placeholder="Email Address">
+                <button class="red-btn2"> Get Started
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="separation"></div>
+
+        <section class="trending-sec">
+            <h2>Trending Now</h2>
+            <div class="movie-grid">
+
+                <div class="movie">
+                    <span class="rank">1</span>
+                    <img src="box-1.jpg" alt="Movie 1">
+                </div>
+
+                <div class="movie">
+                    <span class="rank">2</span>
+                    <img src="box-2.jpg" alt="Movie 1" style="background-size: contain;">
+                </div>
+
+                <div class="movie">
+                    <span class="rank">3</span>
+                    <img src="box-3.jpg" alt="Movie 1">
+                </div>
+
+                <div class="movie">
+                    <span class="rank">4</span>
+                    <img src="box-4.jpg" alt="Movie 1">
+                </div>
+
+                <div class="movie">
+                    <span class="rank">5</span>
+                    <img src="box-5.jpg" alt="Movie 1">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="more">
+            <h2>More reasons to join</h2>
+            <div class="block">
+                <div class="block-content">
+                    <div class="text">
+                        <h3>Enjoy on your TV</h3>
+                        <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                    </div>
+                    <i class="fa-solid fa-tv icon-tv"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="block-content">
+                    <div class="text">
+                        <h3>Download your shows to watch offline</h3>
+                        <p>Save your favourites easily and always have something to watch.</p>
+                    </div>
+                    <i class="fa-solid fa-circle-down icon-download"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="block-content">
+                    <div class="text">
+                        <h3>Watch everywhere</h3>
+                        <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+                    </div>
+                    <i class="fa-solid fa-video icon-watch"></i>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="block-content">
+                    <div class="text">
+                        <h3>Create profiles for kids</h3>
+                        <p>Send kids on adventures with their favourite characters in a space made just for them — free
+                            with your membership.</p>
+                    </div>
+                    <i class="fa-solid fa-children icon-kids"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="sub-footer">
+            <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+            <div class="email-sec">
+                <input class="main-ph" input="text" placeholder="Email Address">
+                <button class="red-btn2"> Get Started
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <footer>
+            <div class="questions">
+                <span>Questions? Call
+                    <a href="#">000-800-919-1743</a>
+                </span>
+            </div>
+
+            <div class="foot-panel1">
+                <ul>
+                    <a href="#">FAQ</a>
+                    <a href="#">Help Centre</a>
+                    <a href="#">Account</a>
+                    <a href="#">Media Centre</a>
+                </ul>
+
+                <ul>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Ways to Watch</a>
+                    <a href="#">Terms of Use</a>
+                </ul>
+
+                <ul>
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookie Preferences</a>
+                    <a href="#">Corporate Information</a>
+                    <a href="#">Contact Us</a>
+                </ul>
+
+                <ul>
+                    <a href="#">Speed Test</a>
+                    <a href="#">Legal Notices</a>
+                    <a href="#">Only on Netflix</a>
+                </ul>
+
+            </div>
+
+            <div class="foot-panel2">
+                <select name="Language" id="Language">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Magghi">Magghi</option>
+                    <option value="Maithli">Maithli</option>
+                </select>
+
+                <div class="foot-panel3">
+                    <span>Netflix India</span>
+                </div>
+
+                <div class="foot-panel4">
+                    <span></span>
+                </div>
+                
+            </div>
+
+        </footer>
+
+    </div>
+</body>
+
+</html>
